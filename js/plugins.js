@@ -2,14 +2,14 @@
 "use strict";
 
 $(document).ready(function(){
-	
-	
+
+
 	//dragable mobile
 	var drag;
-	if($(window).width()<796){drag=false;}else{drag=true;}	
-	
+	if($(window).width()<796){drag=false;}else{drag=true;}
+
 	/* Color Picker */
-	
+
 	  //demo
 	 jQuery('.picker-btn').click(function(){
 	  if(jQuery('.color-picker').css('right')=='0px'){
@@ -20,8 +20,8 @@ $(document).ready(function(){
 	 });
     setTimeout(function(){
     jQuery('.color-picker').animate({ "right": "-223px" }, "slow" );}, 4000);
-	
-	var currentColor = 'blue';
+
+	var currentColor = 'orange';
 	$('body').addClass(currentColor);
 
 	$('.picker-blue').click(function(){
@@ -78,7 +78,7 @@ $(document).ready(function(){
 	$('.light-version').click(function(){
 		$('body').removeClass('darker');
 	});
-	
+
 	/* googleMaps Footer Map */
 		var blue = "#00D6FF"
 		var black = "-100"
@@ -125,7 +125,7 @@ $(document).ready(function(){
                 var color = purple;
 				var saturation = 100;
                 break;
-        }	
+        }
 		var latlng = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
 		var styles = [
 			{
@@ -182,7 +182,7 @@ $(document).ready(function(){
 					{"gamma": 1}
 				]
 			}
-		];		
+		];
 		var options = {
 		 center : latlng,
 		 mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -212,10 +212,10 @@ $(document).ready(function(){
 		window.onload = function() {
 		 wpgmappity_maps_loaded();
 		};
-	
-	
-	
 
-		
+
+
+
+
 	/* End */
 });

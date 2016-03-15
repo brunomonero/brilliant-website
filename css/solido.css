@@ -2,6 +2,7 @@
 /* Fonts */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 ::selection {
 	background-color: #4cddf3;
@@ -66,7 +67,7 @@ html, body {
 	padding:5px;
 }
 .color-picker{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	width: 223px;
 	height: auto;
 	position: fixed;
@@ -116,7 +117,7 @@ html, body {
 	float: left;
 	cursor: pointer;
 	/*border: 2px solid #f0f0f0;*/
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -187,7 +188,7 @@ html, body {
 	opacity: 0.5;
 }
 .welcome{
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Poiret One', cursive;
 	font-style: italic;
 	font-size: 26px;
 	letter-spacing: 3px;
@@ -205,7 +206,7 @@ html, body {
 	opacity: 0;
 	padding: 0;
 	margin: 0;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -214,7 +215,7 @@ html, body {
 .slider-controls li{list-style: none;}
 #home-fullWidth div:hover .slider-controls,#home div:hover .slider-controls{
 	opacity: 1;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -274,7 +275,7 @@ html, body {
 	float: left;
 	line-height: 75px;
 	padding: 0 22px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -283,14 +284,14 @@ html, body {
 .menu a{
 	text-decoration: none;
 	color: #414141;
-	
+
 	/*-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;*/
 }.menu a:hover{
 	color: #4cddf3;
-	
+
 /*	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -300,7 +301,7 @@ html, body {
 .logo{
 	float: left;
 	color: #000;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 23px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -327,7 +328,7 @@ html, body {
 }
 .main-title .second-title{
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif !important;
+	font-family: 'Poiret One', cursive;
 	width: 680px;
 	text-transform: none;
 	margin: auto;
@@ -345,7 +346,7 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 700;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	padding: 11px 25px 11px;
 	cursor: pointer;
 	border: 2px solid #4cddf3;
@@ -396,10 +397,10 @@ html, body {
 	margin: 10px 0 0;
 	position:relative;
 	height: 100px;
-	font-size: 100px;
+	font-size: 45px;
 	font-weight: 300;
 	text-align: center;
-	font-family:  "Brandon Grot W01 Bold",'Montserrat', sans-serif; ,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Poiret One', cursive;
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	z-index: 100;
@@ -411,7 +412,7 @@ html, body {
 	opacity: 0;
 	top: 40px;
 	line-height: 100px;
-	
+
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -422,7 +423,7 @@ html, body {
 .main-title li.t-current{
 	opacity: 1;
 	top: 0;
-	
+
 	-webkit-transition: all 1s ease-in-out;
 	-moz-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
@@ -460,8 +461,8 @@ html, body {
 	font-size: 15px;
 	font-weight: 400;
 	letter-spacing: 1px;
-	font-family: 'Open Sans', sans-serif;
-	
+	font-family: 'Poiret One', cursive;
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -474,7 +475,7 @@ html, body {
 	zoom: 1;
 	filter: alpha(opacity=100);
 	opacity: 1;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -485,7 +486,7 @@ html, body {
 	zoom: 1;
 	filter: alpha(opacity=100);
 	opacity: 1;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -508,7 +509,7 @@ html, body {
 	filter: alpha(opacity=0);
 	opacity: 0;
 	background: url("color/img/color-icons.png") no-repeat;
-	
+
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -530,7 +531,7 @@ html, body {
 	filter: alpha(opacity=0);
 	opacity: 0;
 	background: url("color/img/color-icons.png") no-repeat 0 -44px;
-	
+
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -550,7 +551,7 @@ html, body {
 .f-image .image-hover-overlay,.t-photo .image-hover-overlay {
 	z-index: 11;
 	background-color: #000!important;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -560,7 +561,7 @@ html, body {
 	zoom: 1;
 	filter: alpha(opacity=85);
 	opacity: .85;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -573,7 +574,7 @@ html, body {
 	height: 100%;
 	background: #fff;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -581,7 +582,7 @@ html, body {
 }
 .roll-info:hover{
 	opacity: 0.7;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -644,7 +645,7 @@ html, body {
 	opacity: 1;
 	background: #4cddf3;
 	color: #fff;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -658,7 +659,7 @@ html, body {
 }*/
 .f-single:hover .roll-info{
 	opacity: 0.7;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -695,12 +696,12 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	background: #4cddf3;
 	border-radius: 25px;
 	padding: 13px 25px 13px;
 	letter-spacing: 1px;
-	
+
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
@@ -710,14 +711,14 @@ html, body {
 .title{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 }
-.title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 120px 0 30px; text-transform: uppercase;}
-.title.two{color: #757575; font-size: 17px; font-family: 'Open Sans', sans-serif; width: 680px; margin: 50px auto;}
+.title.one{color: #404141; font-size: 37px; letter-spacing: 5px; padding: 40px 0 30px; text-transform: uppercase;}
+.title.two{color: #757575; font-size: 22px; font-family: 'Poiret One', cursive; width: 680px; margin: 50px auto;}
 .f-info{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 17px;
 	color: #404141;
 	background: #fff;
@@ -725,17 +726,17 @@ html, body {
 	padding: 40px 20px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	transition: all 0.2s ease-out;
 }
-.f-info span{color: #aeaeae; font-size: 18px; font-family: 'Open Sans', sans-serif;}
+.f-info span{color: #aeaeae; font-size: 18px; font-family: 'Poiret One', cursive;}
 .f-image{
 	cursor: pointer;
 	position: relative;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -773,7 +774,7 @@ html, body {
 .title-one, .title-full-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -781,7 +782,7 @@ html, body {
 .title-two, .title-full-two{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 28px;
 	color: #434343;
 	padding-bottom: 50px;
@@ -791,7 +792,7 @@ html, body {
 .half-content{
 	color: #888888;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	line-height: 26px;
 }
 .half-content a{color: #4cddf3; text-decoration: none; font-weight: 400;}
@@ -814,7 +815,7 @@ html, body {
 .p-title-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
@@ -824,7 +825,7 @@ html, body {
 .p-title-two{
 	font-weight: 300;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 35px;
 	color: #fff;
 	padding: 10px 0 30px;
@@ -832,7 +833,7 @@ html, body {
 .p-info{
 	color: #fff;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	text-align: center;
 	width: 650px;
 	margin: 50px auto 0;
@@ -905,7 +906,7 @@ html, body {
 	opacity: 0.7;
 	font-size: 50px;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	letter-spacing: 30px;
 	text-transform: uppercase;
 	color: #fff;
@@ -920,7 +921,7 @@ html, body {
 	background: #4cd8ed;
 	margin: auto;
 	margin-top: 30px;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -928,7 +929,7 @@ html, body {
 }
 .t-element:hover .t-spacer{
 	background: #fff;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -937,7 +938,7 @@ html, body {
 .t-element:hover .t-roll{
 	background: #fff;
 	background: rgba(255,255,255,0.8);
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -947,7 +948,7 @@ html, body {
 	position: relative;
 	width: 255px;
 	overflow: hidden;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -965,10 +966,10 @@ html, body {
 	background: #fff;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	padding: 30px;
 	overflow: auto;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -976,7 +977,7 @@ html, body {
 }
 .t-element:hover .t-data{
 	background: #4cd8ed;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -984,7 +985,7 @@ html, body {
 }
 .t-element:hover .t-info{
 	color: #fff;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -1017,7 +1018,7 @@ html, body {
 	color: #7f7f7f;
 	font-size: 14px;
 	margin-top: 10px;
-	
+
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -1059,7 +1060,7 @@ html, body {
 	float: right;
 	right: 50%;
 	position: relative;
-	
+
 }
 .controller ul{
 	padding: 0;
@@ -1112,7 +1113,7 @@ html, body {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #929292;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	letter-spacing: 3px;
 }
 .controller-2,.controller-3{
@@ -1120,7 +1121,7 @@ html, body {
 	right: 50%;
 	position: relative;
 	margin: 30px 0 60px;
-	
+
 }
 .controller-3{margin-top: 0;}
 .controller-2 ul,.controller-3 ul{
@@ -1170,7 +1171,7 @@ html, body {
 }
 .comment{
 	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	color: #acacac;
 }
 .comment span{color: #474747; font-weight: 600;}
@@ -1211,7 +1212,7 @@ html, body {
 	font-size: 14px;
 	text-align: left;
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	line-height: 30px;
 }
 .details ul{
@@ -1243,14 +1244,14 @@ html, body {
 	margin: 10px auto 40px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }.s-ico:hover{
 	background-color: #e6e6e6;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1261,14 +1262,14 @@ html, body {
 .f-ico.s-three{background-position: -146px 0;}
 .f-ico.s-four{background-position: -219px 0;}
 .s-info{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 14px;
 	color: #b4b4b4;
 	font-weight: 400;
 	line-height: 25px;
 }
 .s-info span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	color: #434242;
 	font-size: 22px;
 }
@@ -1281,7 +1282,7 @@ html, body {
 	overflow: visible;
 }
 .sl-title{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	color: #434242;
 	font-size: 18px;
 	font-weight: 400;
@@ -1298,7 +1299,7 @@ html, body {
 	margin: 10px auto 30px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	
+
 	/*-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1313,7 +1314,7 @@ html, body {
 .sl-clock{background-position: -440px 0;}
 
 /* Skills */
-.skill-1 .skill-in{width: 0%;} 
+.skill-1 .skill-in{width: 0%;}
 .skill-2 .skill-in{width: 0%;}	/* Change your percent Skills here!*/
 .skill-3 .skill-in{width: 0%;}	/* Change your percent Skills here!*/
 .skill-4 .skill-in{width: 0%;}	/* Change your percent Skills here!*/
@@ -1330,7 +1331,7 @@ html, body {
 }
 .info-skills {
 	position: absolute;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 14px;
 	color: #fff;
 	font-weight: 600;
@@ -1358,7 +1359,7 @@ html, body {
 	opacity: 0;
 	background: url("color/img/color-icons.png") 0 -88px no-repeat;
 	cursor: pointer;
-	
+
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -1369,7 +1370,7 @@ html, body {
 .nav-wrapper:hover .nav-work{opacity: 1}
 .nav-work{
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1418,7 +1419,7 @@ html, body {
 .ch-item img{width: 100%;}
 .ch-grid img{
     opacity: 1;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1426,7 +1427,7 @@ html, body {
 }
 .ch-grid:hover img{
     opacity: 0.1;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1434,7 +1435,7 @@ html, body {
 }
 .ch-grid:hover div{
 	opacity: 1;
-	
+
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1453,7 +1454,7 @@ html, body {
     height: 100%;
 	left: 100%;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
@@ -1464,7 +1465,7 @@ html, body {
 	padding: 0 0;
 	margin: 20% 20px;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	letter-spacing:1px;
 	font-size: 16px;
 	font-weight: 400;
@@ -1501,14 +1502,14 @@ html, body {
 	cursor: pointer;
 	border-radius: 3px;
 	padding: 0px 22px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	color: #c1c1c1;
 	font-weight: 400;
 	line-height: 32px;
 	text-decoration: none;
 	margin: 0 5px 10px;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1516,7 +1517,7 @@ html, body {
 }.folio-btn:hover{
 	background: #4cddf3;
 	color: #fff;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1533,14 +1534,14 @@ html, body {
 	background: #4cddf3;
 	color: #fff;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }.p-roll:hover{
 	opacity: 0.7;
-	
+
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1590,7 +1591,7 @@ html, body {
 	margin: auto;
 	overflow: auto;
 	color: #a8a8a8;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 17px;
 	font-weight: 400;
 }
@@ -1603,7 +1604,7 @@ html, body {
 }
 .f-title-one{
 	font-weight: 400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -1616,7 +1617,7 @@ html, body {
 .title-one, .title-full-one{
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 15px;
 	color: #d7d9da;
 	text-transform: uppercase;
@@ -1626,7 +1627,7 @@ html, body {
 
 .f-title-two{
 	font-weight: 300;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-size: 28px;
 	color: #434343;
 	margin-bottom: 45px;
@@ -1634,7 +1635,7 @@ html, body {
 .f-data{
 	color: #3f3f3f;
 	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-weight: 600;
 	line-height: 30px;
 }
@@ -1706,7 +1707,7 @@ html, body {
 	border-radius: 3px;
 	background: #4cddf3;
 	border: none;
-	
+
 	-webkit-transition: all .2s ease-out;
 	-moz-transition: all .2s ease-out;
 	-o-transition: all .2s ease-out;
@@ -1715,7 +1716,7 @@ html, body {
 .contour-btn:hover {
 	color: #4cddf3;
 	background: #f7f7f7 !important;
-	
+
 	-webkit-transition: all .2s ease-out;
 	-moz-transition: all .2s ease-out;
 	-o-transition: all .2s ease-out;
@@ -2103,7 +2104,7 @@ html, body {
     padding-bottom: 56.25%;
     /*padding-top: 30px;*/ height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -2127,12 +2128,12 @@ html, body {
 	height:100%;
 	position:absolute;
 	z-index:3;
-	
+
 	-webkit-user-select: none;
 	 -khtml-user-select: none;
 	   -moz-user-select: none;
 	    -ms-user-select: none;
-	        user-select: none;		
+	        user-select: none;
 }
 
 .slides-navigation .next{background: transparent url("../img/s-next.png"); width:81px; height:80px; margin-right:70px; opacity:0.3}
