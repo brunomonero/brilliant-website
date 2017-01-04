@@ -271,7 +271,7 @@ html, body {
 	float: right;
 	margin-right: 68px;
 }
-.menu ul{list-style: none; padding: 0; height: 75px; margin: 0;}
+.menu ul{list-style: none; padding: 10px 0 0 0; height: 65px; margin: 0;}
 .menu ul li{
 	float: left;
 	line-height: 75px;
@@ -326,6 +326,10 @@ html, body {
 	background: #4cddf3;
 	bottom: 0;
 	left: 0;
+}
+.logo img{
+	height: 50px;
+	padding-bottom: 5px;
 }
 .main-title .second-title{
 	font-size: 25px;
@@ -848,7 +852,7 @@ html, body {
 	background: #4cddf3;
 	margin: auto;
 }
-.p-image-01{position: absolute; bottom: -3px; margin: 0 auto; width: 720px;}
+.p-image-01{bottom: -3px; margin: 0 auto; width: 720px;}
 .p-image-02 div{position: absolute; bottom: 0; left: 50%;}
 .parallax-info{
 	position: absolute;
