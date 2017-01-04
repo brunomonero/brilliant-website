@@ -848,7 +848,7 @@ html, body {
 	background: #4cddf3;
 	margin: auto;
 }
-.p-image-01{position: absolute; bottom: -3px; left: 50%; margin-left: -595px;}
+.p-image-01{position: absolute; bottom: -3px; margin: 0 auto; width: 720px;}
 .p-image-02 div{position: absolute; bottom: 0; left: 50%;}
 .parallax-info{
 	position: absolute;
