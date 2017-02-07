@@ -95,7 +95,9 @@ textarea {
 
 
 
-
+div#mti_wfs_colophon {
+    display: none !important;
+}
 
 
 
