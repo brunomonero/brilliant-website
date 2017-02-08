@@ -205,7 +205,7 @@ $(document).ready(function(){
 		google.maps.event.addListener(marker0,'click',
 		 function() {
 		 var infowindow = new google.maps.InfoWindow(
-		 {content: 'Brilliant Machine - Av. Nilo Peçanha, 50 - sala 2614.'});
+		 {content: 'Brilliant Machine - Av. Nilo Peçanha, 50 - sala 1704.'});
 		 infowindow.open(wpgmappitymap,marker0);
 		 });
 		}
